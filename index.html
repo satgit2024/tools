@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image & PDF Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f4f6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .tool-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .tool-card:hover {
+            transform: translateY(-10px);
+        }
+        .tool-card img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        .tool-card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .tool-card p {
+            color: #666;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+<header>
+    Image & PDF Tools
+</header>
+<div class="container">
+    <a href="tools/img-compress.html">
+        <div class="tool-card">
+            <img src="https://via.placeholder.com/100" alt="Image Compression">
+            <h3>Image Compression</h3>
+            <p>Compress your images quickly and easily.</p>
+        </div>
+    </a>
+    <a href="pdf-to-image.html">
+        <div class="tool-card">
+            <img src="https://via.placeholder.com/100" alt="PDF to Image">
+            <h3>PDF to Image</h3>
+            <p>Convert PDF documents to images effortlessly.</p>
+        </div>
+    </a>
+    <a href="image-to-pdf.html">
+        <div class="tool-card">
+            <img src="https://via.placeholder.com/100" alt="Image to PDF">
+            <h3>Image to PDF</h3>
+            <p>Convert images into PDF documents.</p>
+        </div>
+    </a>
+    <a href="pdf-compression.html">
+        <div class="tool-card">
+            <img src="https://via.placeholder.com/100" alt="PDF Compression">
+            <h3>PDF Compression</h3>
+            <p>Reduce PDF file size with ease.</p>
+        </div>
+    </a>
+</div>
+<footer>
+    &copy; 2025 Image & PDF Tools - All Rights Reserved
+</footer>
+</body>
+</html>
